@@ -31,3 +31,5 @@ There is a google colab notebook attached for CD spectra plotting associated wit
 > Abraham. Savitzky and M. J. E. Golay
 > Analytical Chemistry 1964 36 (8), 1627-1639
 > DOI: [10.1021/ac60214a047](https://pubs.acs.org/doi/10.1021/ac60214a047)
+
+The code "joining_curves.py" allows to join different CD curves (csv files) into one file, to be used in one spectra.
