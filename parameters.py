@@ -1,9 +1,9 @@
 #############################################################################################################################################
-#Peptide Information
+#Protein Information
 #############################################################################################################################################
 
 #molecular weight in daltons
-molecular_weight = 1957.21
+molecular_weight = 1900.25
 
 #number of residues
 aa = 17
@@ -12,4 +12,4 @@ aa = 17
 path_length = 1
 
 #Molarity in micromolar
-molarity = 31.25
+molarity = 30
