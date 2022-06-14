@@ -1,4 +1,4 @@
-# circular_dichoism_deconvolution
+# circular_dicrhoism_spectra_deconvolution
 Code for CD deconvolution into ellipticity
 
 Ellipticity according to:
