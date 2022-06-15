@@ -14,16 +14,16 @@ parser.add_argument("-p", '--parameters', help="file with parameters", action="s
 args = parser.parse_args()
 
 #############################################################################################################################################
-#Transforming txt file in pandas matrix
+#Transforming txt file into a pandas matrix
 #############################################################################################################################################
 
 #read the txt file
 df = pd.read_csv(args.file,sep='	', header=None)
 #change commas for dots
 df = df.stack().str.replace(',','.').unstack()
-#remove voltage column
+#remove voltage column. If absent, insert # in the line below
 df.drop(1,inplace=True, axis=1)
-#rename the columns names
+#rename the columns names. If there was no voltage column, change the number 2 below to the number 1
 df.rename(columns={0:'wavelength',2:'absorbance'},inplace=True)
 #convert string to float
 df['absorbance'] = df['absorbance'].astype(float)
