@@ -8,14 +8,7 @@ Ellipticity according to:
 >Nat Protoc. 2006;1(6):2876-2890. [doi:10.1038/nprot.2006.202](https://www.nature.com/articles/nprot.2006.202)
 
 ### Usage:
-```
-python3 deconvolution.py -f data.txt -p parameters.py
-```
-The data.txt file is the user file with CD data.
-
-### Parameters.py:
-
-File to be modified according to the experiment conditions.
+Modify these parameters in the notebook:
 
 - **molecular_weight**: protein mass in daltons;
 
@@ -26,9 +19,6 @@ File to be modified according to the experiment conditions.
 - **molarity**: protein concentration in micromolar;
 
 ## Plotting
-
-The code "joining_curves.py" allows to join different CD curves (csv files) into one file, to be used in one final spectra.
-
 For plotting, there is a google colab notebook attached for CD spectra plotting associated with Savitzky–Golay filter smoothing (optional).
 > Abraham. Savitzky and M. J. E. Golay
 > Analytical Chemistry 1964 36 (8), 1627-1639
